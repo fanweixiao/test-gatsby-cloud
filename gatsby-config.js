@@ -6,7 +6,9 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `YoMo Framework Blog`,
+    title: `YoMo`,
+    siteUrl: `https://blog.yomo.run`,
+    description: `Streaming-Serverless Framework for Low-latency Edge Computing applications, running atop QUIC protocol, engaging 5G technology.`,
   },
   plugins: [
     {

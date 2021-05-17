@@ -1,14 +1,14 @@
 ---
-title: Supercharge your Application with Real-time Low-Latency Edge Computing
-date: 2021/4/28
-description: We’re kicking off our blog series with some exciting news! We are collaborating with our friends at Redpanda to help applications deliver low-latency real-time experience to their users.
+title: "Supercharge your Application with Real-time Low-Latency Edge Computing"
+date: 2021-04-28
+slug: "/supercharge-your-application-with-real-time-edge-computing"
+canonicalUrl: "https://blog.yomo.run"
+description: "We’re kicking off our blog series with some exciting news! We are collaborating with our friends at Redpanda to help applications deliver low-latency real-time experience to their users."
 author: Vish V.
 tag: use-case
 ---
 
-# Supercharge your Application with Real-time Low-Latency Edge Computing
-
-<img src="/images/blog_01/Redpand_YoMo_1.png" alt="Redpanda + YoMo" />
+<img src="/Redpand_YoMo_1.png" alt="Redpanda + YoMo" width="100%" />
 
 We’re kicking off our blog series with some exciting news! We are collaborating with our friends at Redpanda to help applications deliver low-latency real-time experience to their users.
 
@@ -32,11 +32,11 @@ YoMo is an open-source Streaming Serverless Framework for building Low-latency E
 
 Traditional Cloud-Centric architecture:
 
-<img src="/images/blog_01/redpanda-yomo-1.png" alt="traditional arch" />
+<img src="/redpanda-yomo-1.png" alt="traditional arch" />
 
 State-of-the-art Geo-Distributed architecture:
 
-<img src="/images/blog_01/redpanda-yomo-2.png" alt="geo-distributed arch" />
+<img src="/redpanda-yomo-2.png" alt="geo-distributed arch" />
 
 ## Let’s get started!
 

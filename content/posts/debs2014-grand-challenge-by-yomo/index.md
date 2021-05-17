@@ -1,12 +1,12 @@
 ---
-title: Implement DEBS 2014 Grand Challenge with YoMo, an Open Source Real-time Stream Processing Framework
-date: 2021/5/13
-description: DEBS.org is a global Distributed and Event-Based Systems (DEBS) conferences and workshops. Since 2011, the DEBS conference has provided a yearly Grand Challenge to the event processing community. The goal of the DEBS Grand Challenge is to provide a common ground and evaluation criteria for a competition aimed at both research and industrial event-based systems.
+title: "Implement DEBS 2014 Grand Challenge with YoMo, an Open Source Real-time Stream Processing Framework"
+date: 2021-05-13
+slug: "/implement-debs-2014-grand-challenge-with-yo-mo-an-open-source-real-time-stream-processing-framework"
+canonicalUrl: "https://blog.yomo.run"
+description: "DEBS.org is a global Distributed and Event-Based Systems (DEBS) conferences and workshops. Since 2011, the DEBS conference has provided a yearly Grand Challenge to the event processing community. The goal of the DEBS Grand Challenge is to provide a common ground and evaluation criteria for a competition aimed at both research and industrial event-based systems."
 author: Ivy Guo (Intern)
 tag: use-case
 ---
-
-# DEBS Grand Challenge: Real-Time Stream Processing with YoMo
 
 ## Introduction
 
@@ -16,11 +16,11 @@ tag: use-case
 
 In traditional processing, data is often stored in the database at first, and then processed to obtain useful information at a secondary stage. The traditional architecture:
 
-![yomo debs2014 storm arch](/images/debs2014-storm.png)
+![yomo debs2014 storm arch](/debs2014-storm.png)
 
 However, with stream processing, we're swiftly able to run real-time analytics on incoming data streams. By utilizing Yomo, an open-source serverless stream processing framework, we can address DEBS' challenge in a real-time fashion:
 
-![yomo debs2014 new arch](/images/debs2014-yomo.png)
+<img alt="yomo debs2014 new arch" src="/debs2014-yomo.png" width="100%" />
 
 Firstly, we will take a look at the type of data we're dealing with. Next, we will introduce two queries that were originally proposed by ACM DEBS. Lastly, we install [YoMo](http://github.com/yomorun/yomo) (an open-source framework for real-time stream processing) to implement both queries as described.
 
